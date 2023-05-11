@@ -14,7 +14,15 @@ export default function RootLayout({ children }) {
       <head>
         <title>NextJS Dasar</title>
       </head>
-      <body>{children}</body>
+      <body>
+        {/* <div>
+          <h1>Navbar</h1>
+        </div> */}
+        {children}
+        {/* <div>
+          <h1>Footer</h1>
+        </div> */}
+      </body>
     </html>
   )
 }
