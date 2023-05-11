@@ -1,9 +1,9 @@
-const Page = () => {
+const Dashboard = () => {
   return (
     <>
-      <h1>Ini adalah dashboard</h1>
+      <h1>ini adalah halaman utama dashboard</h1>
     </>
   );
 }
 
-export default Page;
+export default Dashboard;
