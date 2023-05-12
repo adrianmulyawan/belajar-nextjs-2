@@ -50,6 +50,9 @@ export default function RootLayout({ children }) {
           <li style={{ cursor: "pointer" }} onClick={ () => handleOnClick('/calculator') }>
             Calculator
           </li>
+          <li style={{ cursor: "pointer" }} onClick={ () => handleOnClick('/find-profile') }>
+            Github Profile
+          </li>
         </ul>
 
         {children}
