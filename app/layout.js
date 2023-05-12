@@ -43,6 +43,9 @@ export default function RootLayout({ children }) {
           <li style={{ cursor: "pointer" }} onClick={ () => handleOnClick('/dashboard') }>
             Dashboard
           </li>
+          <li style={{ cursor: "pointer" }} onClick={ () => handleOnClick('/calculator') }>
+            Calculator
+          </li>
         </ul>
 
         {children}
