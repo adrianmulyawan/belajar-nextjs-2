@@ -3,6 +3,10 @@
 // import './globals.css'
 // import { Inter } from 'next/font/google'
 
+// > Import bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap'; 
+
 // const inter = Inter({ subsets: ['latin'] })
 
 // export const metadata = {
@@ -26,9 +30,9 @@ export default function RootLayout({ children }) {
         <title>NextJS Dasar</title>
       </head>
       <body>
-        <nav>
+        {/* <nav>
           <center><h2>Navbar</h2></center>
-        </nav>
+        </nav> */}
 
         <ul>
           <li style={{ cursor: "pointer" }}>
@@ -50,9 +54,9 @@ export default function RootLayout({ children }) {
 
         {children}
         
-        <footer>
+        {/* <footer>
           <center><h2>Footer</h2></center>
-        </footer>
+        </footer> */}
       </body>
     </html>
   )
